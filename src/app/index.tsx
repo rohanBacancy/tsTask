@@ -6,7 +6,7 @@ const AuthenticatedApp = React.lazy(() => import('./AuthorisedApp'));
 const UnauthenticatedApp = React.lazy(() => import('./UnAuthorisedApp'));
 
 const App: FC = () => {
-  // const user:string|null = window.localStorage.getItem('userId');
+
   const user  = useAuth()
 
   return (
