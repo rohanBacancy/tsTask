@@ -21,14 +21,11 @@ export const SBadge = styled(Badge)`
 `
 
 export const SearchWrapperDiv = styled.div`
-    &&{
         display:flex;
         align-items:center;
         justify-content:center;
         margin-top:2vh;
         margin:3vh 5vw;
-    }
-
 `
 export const SearchPaper = styled(Paper)`
     &&{
@@ -56,12 +53,10 @@ export const SMediaCard = styled(Card)`
 `
 
 export const SMedia = styled.img`
-    &&{
         height:100%;
         width:100%;
         max-height:400px;
         overflow:scroll;
-    }
 `
 
 export const SMediaTitle = styled(Typography)`
@@ -88,17 +83,9 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const PaginationWrapper = styled.div`
-    &&{
         display:flex;
         align-items:center;
         justify-content:center;
         margin-top:2vh;
         margin-bottom:2vh;
-    }
 `
-
-// export const SMediaCard = styled(Card)`
-//     &&{
-
-//     }
-// `
